@@ -9,9 +9,6 @@ output: html
 
 ## Public baths in Stockholm
 
-
-```
-## Error in leaflet(., incl.data = TRUE): unused argument (incl.data = TRUE)
-```
+![plot of chunk map](figure/map-1.png)
 
 
