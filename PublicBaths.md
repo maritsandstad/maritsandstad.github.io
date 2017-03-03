@@ -1,4 +1,4 @@
----
+get---
 title: "Public baths in Stockholm"
 author: "Marit Sandstad"
 date: "February 27, 2017"

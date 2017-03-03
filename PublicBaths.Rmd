@@ -1,4 +1,4 @@
----
+get---
 title: "Public baths in Stockholm"
 author: "Marit Sandstad"
 date: "February 27, 2017"
@@ -25,7 +25,7 @@ bathWebSites <- c("<a href = 'http://www.stockholm.se/-/Serviceenhetsdetaljer/?e
 
 bathLongLat %>%
         leaflet() %>%
-        addTiles() %>%
+        addTiles(urlTemplate = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png") %>%
         addMarkers(icon = sthlmStadIcon, popup = bathWebSites)
 ```
 
